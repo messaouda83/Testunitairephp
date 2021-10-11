@@ -1,0 +1,21 @@
+{
+    "name": "acs/testphpunit",
+    "require": {
+        "phpunit/php-timer": "^5.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev": {
+        "internations/exception-bundle": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acs\\Testphpunit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Messaouda Benchikh",
+            "email": "messaoudabenchikh@yahoo.fr"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "internations/exception-bundle",
+    "description": "Helps making your Symfony Bundle a good Exception citizen. Yes, it’s opinionated.",
+    "license": "MIT",
+    "require": {
+        "symfony/finder": "~3|^4.0",
+        "symfony/console": "^3.0|^4.0",
+        "nikic/php-parser": "~2|~3|~4",
+        "lstrojny/functional-php": "~0|~1",
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "Lars Strojny",
+            "email": "lars.strojny@internations.org"
+        },
+        {
+            "name": "Max Beutel",
+            "email": "max.beutel@internations.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"InterNations\\Bundle\\ExceptionBundle": "src/"}
+    },
+    "require-dev": {
+        "internations/kodierungsregelwerksammlung": "~0",
+        "internations/testing-component": "~1",
+        "phpunit/phpunit": "~6"
+    }
+}
